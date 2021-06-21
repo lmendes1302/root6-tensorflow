@@ -4,5 +4,5 @@ FROM rootproject/root:latest
 USER root
 RUN apt update
 RUN apt install -y python3-pip
-RUN pip3 install numpy==1.19.2 tensorflow==2.2.0 keras
+RUN pip3 install numpy==1.19.2 tensorflow==2.2.0 keras root_numpy
 CMD ["bash"]
